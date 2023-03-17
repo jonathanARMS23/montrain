@@ -1,0 +1,27 @@
+{
+	"id": "f145316a-b792-4036-84d8-413019b002cd",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "dailyToken",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTQwMzQyZTliNzRmNDA4MjA5ODY5MiIsImZpcnN0bmFtZSI6IkpvbmF0aGFuIiwibGFzdG5hbWUiOiJBUk1TIiwiZW1haWwiOiJiaWdqbzIzMjNAZ21haWwuY29tIiwicm9sZSI6ImNsaWVudCIsImlhdCI6MTY3OTA0MjIxNCwiZXhwIjoxNjgxNjM0MjE0fQ.xPhojdZESzbRlymBNdzKGIrJVidYl6r_6HqpK-Je5xQ",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "adminToken",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0MTMyNTg5MGQ3NjQ2MTYxNzc0MTQzMiIsImZpcnN0bmFtZSI6IkpvbmF0aGFuIiwibGFzdG5hbWUiOiJBUk1TIiwiZW1haWwiOiJhcm1zam9uYXRoYW44NzhAZ21haWwuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjc5MDQ0OTMwLCJleHAiOjE2ODE2MzY5MzB9.-BepmO12Ic9ZEwzrA8UQDsBXNAQAUyFyAxYJadNQ3uo",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2023-03-17T09:41:26.920Z",
+	"_postman_exported_using": "Postman/10.11.2"
+}

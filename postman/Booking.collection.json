@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "0db64233-dc06-4ff0-86ec-427f533d2ddf",
+		"name": "Booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12597711"
+	},
+	"item": [
+		{
+			"name": "Create Booking",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{dailyToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "type",
+							"value": "secondclass",
+							"type": "text"
+						},
+						{
+							"key": "place",
+							"value": "5",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "confirmed",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseUrl}}/booking/create/6413860c733e2d040b90b3bb",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"booking",
+						"create",
+						"6413860c733e2d040b90b3bb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Canceling",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{dailyToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/booking/cancel/641410617d2c28012231920d",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"booking",
+						"cancel",
+						"641410617d2c28012231920d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ticket Avalaible",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{dailyToken}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/booking/avalaible?start=Bellegarde&reach=Ceyzériat",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"booking",
+						"avalaible"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "Bellegarde"
+						},
+						{
+							"key": "reach",
+							"value": "Ceyzériat"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
